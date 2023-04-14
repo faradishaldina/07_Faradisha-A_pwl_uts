@@ -11,6 +11,15 @@
     <title>CRUD LARAVEL 8</title>
   </head>
   <body>
+    <style>
+  body{
+      background-color: #ffebbb;
+    }
+    .card{
+      background-color: #fdc57b;
+    
+    }
+    </style>
     <h1 class="text-center mb-4">Edit Data Barang</h1>
     
     <div class="container">

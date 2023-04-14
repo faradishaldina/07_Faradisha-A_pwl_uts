@@ -10,7 +10,14 @@
 
     <title>CRUD LARAVEL 8</title>
   </head>
+  
   <body>
+  <style>
+    body{
+      background-color: #ffebbb;
+    }
+   
+    </style>
     <h1 class="text-center mb-4">Data Barang</h1>
     
     <div class="container mt-5">

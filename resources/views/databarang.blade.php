@@ -10,11 +10,16 @@
 
     <title>CRUD LARAVEL 8</title>
   </head>
+    <style>
+      body {
+        background-color:#ffebbb;
+      }
+    </style>
   <body>
     <h1 class="text-center mb-4">Data Barang</h1>
     
     <div class="container">
-    <a href="/tambahbarang" class="btn btn-success">Tambah +</a>
+      <a href="/tambahbarang" class="btn btn-success">Tambah +</a>
         <div class="row g-3 align-items-center mt-2">
             <div class="col-auto">
               <form action="/barang" method="GET">
@@ -30,7 +35,7 @@
                 {{ $message }}
             </div>
         @endif
-        <table class="table table-hover">
+        <table class="table table-warning table-striped table-hover">
     <thead>
     <tr>
       <th scope="col">#</th>
@@ -39,7 +44,7 @@
       <th scope="col">kategori_barang</th>
       <th scope="col">harga</th>
       <th scope="col">qty</th>
-      <th scope="col">action</th>
+      <th scope="col" style="text-center">action</th>
       <th scope="col">created_at</th>
     </tr>
   </thead>
